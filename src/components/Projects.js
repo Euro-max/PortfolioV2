@@ -16,7 +16,7 @@ const Projects = () => {
           whileHover={{scale:1.05}}
          >
             {item.image}
-            <motion.div initial={{opacity:0}} whileHover={{opacity:1}} transition={{duration:0.5}}className='absolute inset-0 flex flex-col items-center justify-center text-white opacity-0 backdrop-blur-md transition-opacity duration-500 group-hover:opacity-100'> 
+            <div className='absolute inset-0 flex flex-col items-center justify-center text-white opacity-0 backdrop-blur-md transition-opacity duration-500 group-hover:opacity-100'> 
             <p className='pl-3 dark:text-[#fff] mt-[35px]'>{item.title}</p>
             <p className='pl-3 dark:text-[#fff]'>{item.description}</p>
             <motion.a className='bg-[#e85d04]  flex justify-center mt-[50px] px-4 py-4 rounded-full cursor-pointer' 
@@ -28,7 +28,7 @@ const Projects = () => {
             transition={{type:'spring',stiffness:400 , damping:17}}
             >Check it Out</motion.a>
            
-            </motion.div>
+            </div>
            <div className='flex justify-end pr-3 '> 
 
            </div>
