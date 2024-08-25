@@ -1,3 +1,4 @@
+This is the Second Version of my portfolio website. The project includes the implementation of TailWindCSS,React TypeWriter, Framer Motion for animation, and FireBase as a backend
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
