@@ -7,6 +7,7 @@ import Skills from './components/Skills';
 import Bio from './components/Bio';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Gallery from './components/Gallery';
 function App() {
   return (
     <div className='bg-[#222222] w-full h-screen'>
@@ -15,6 +16,7 @@ function App() {
       <Bio/>
       <Projects/>
       <Skills/>
+      <Gallery/>
       <Contact/>
       <Footer/>
     </div>
